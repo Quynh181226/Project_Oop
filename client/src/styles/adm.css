@@ -1,0 +1,632 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 100%;
+    background: #F9F9F9;
+    z-index: 2000;
+    font-family: 'Lato', sans-serif;
+    transition: 0.3s ease;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    overflow-y: auto;
+}
+
+.sidebar.dark {
+    background: #111;
+}
+
+.sidebar.hide {
+    width: 60px;
+}
+
+.sidebar.hide .menu-link span {
+    display: none;
+}
+
+.menu {
+    width: 100%;
+    margin-top: 48px;
+}
+
+.menu-item {
+    height: 48px;
+    background: transparent;
+    margin-left: 6px;
+    border-radius: 48px 0 0 48px;
+    padding: 4px;
+}
+
+.menu-item.active {
+    background: #eee;
+    position: relative;
+}
+
+.menu-item.active::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: -40px;
+    right: 0;
+    box-shadow: 20px 20px 0 #eee;
+    z-index: -1;
+}
+
+.menu-item.active::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: -40px;
+    right: 0;
+    box-shadow: 20px -20px 0 #eee;
+    z-index: -1;
+}
+
+.sidebar.dark .menu-item.active {
+    background: #37353E;
+}
+
+.sidebar.dark .menu-item.active::before {
+    box-shadow: 20px 20px 0 #37353E;
+}
+
+.sidebar.dark .menu-item.active::after {
+    box-shadow: 20px -20px 0 #37353E;
+}
+
+.menu-item.active,
+.menu-item.active::before,
+.menu-item.active::after {
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-link {
+    width: 100%;
+    height: 100%;
+    background: #F9F9F9;
+    display: flex;
+    align-items: center;
+    border-radius: 48px;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.menu-link.dark {
+    background: #111;
+}
+
+.menu-link.hide {
+    width: 40px;
+    transition: width 0.3s ease;
+}
+
+.switch-toggle {
+    display: block;
+    min-width: 50px;
+    height: 25px;
+    border-radius: 25px;
+    background: #eee;
+    cursor: pointer;
+    position: relative;
+}
+
+.switch-toggle::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    width: calc(25px - 4px);
+    background: #6B7597;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.switch-toggle.dark {
+    background: #6B7597;
+}
+
+.switch-toggle.dark::before {
+    background: #111;
+}
+
+.switch-toggle:has(input:checked)::before {
+    left: calc(100% - (25px - 4px) - 2px);
+}
+
+.custom-modal .ant-modal-content {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.custom-modal .ant-modal-header {
+    background: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 16px;
+}
+
+.custom-modal .ant-modal-title {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.custom-modal .ant-modal-body {
+    padding: 24px;
+}
+
+.custom-modal .ant-modal-footer {
+    border-top: 1px solid #e0e0e0;
+    padding: 16px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+@media (max-width: 768px) {
+    .custom-modal {
+        width: 90% !important;
+        max-width: 90% !important;
+    }
+
+    .custom-modal .ant-modal-body {
+        padding: 16px;
+    }
+
+    .header-card {
+        width: 100% !important;
+        min-width: 200px;
+    }
+}
+
+.icon-white {
+    filter: brightness(0) invert(1);
+}
+
+.icon-green {
+    filter: brightness(0) saturate(100%) invert(70%) sepia(36%) saturate(640%) hue-rotate(37deg) brightness(93%) contrast(88%);
+}
+
+/* Dark mode sidebar */
+.sidebar.dark {
+    background: #111;
+}
+
+/* Menu link mặc định */
+.sidebar.dark .menu-link {
+    background: #111;
+    color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+/* Text bên trong menu-link */
+.sidebar.dark .menu-link span {
+    color: #F9F9F9;
+    transition: color 0.3s ease;
+}
+
+/* Icon (SVG) bên trong menu-link */
+.sidebar.dark .menu-link svg {
+    color: #F9F9F9;
+    fill: currentColor;
+    transition: color 0.3s ease, fill 0.3s ease;
+}
+
+/* Hover: đổi cả text + icon */
+.sidebar.dark .menu-link:hover span,
+.sidebar.dark .menu-link:hover svg {
+    color: #6B7597;
+    fill: #6B7597;
+}
+
+/* Active menu item */
+.sidebar.dark .menu-item.active {
+    background: #37353E;
+}
+
+/* Active: đổi cả text + icon */
+.sidebar.dark .menu-item.active span,
+.sidebar.dark .menu-item.active svg {
+    color: #6B7597;
+    fill: #6B7597;
+}
+
+/* Responsive fixes */
+@media (max-width: 1200px) {
+    /*.sidebar {*/
+    /*    width: 250px;*/
+    /*}*/
+
+    .sidebar.hide {
+        width: 60px;
+    }
+
+    main {
+        padding: 24px 16px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+        width: 280px;
+    }
+
+    .sidebar.open {
+        transform: translateX(0);
+    }
+
+    .sidebar.hide {
+        transform: translateX(-100%);
+    }
+
+    .sidebar.hide.open {
+        transform: translateX(0);
+        width: 280px;
+    }
+
+    main {
+        width: 100% !important;
+        left: 0 !important;
+        padding: 20px 12px !important;
+    }
+
+    .menu-link {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 28px !important;
+    }
+
+    .content > div {
+        padding: 0 8px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    main {
+        padding: 16px 8px !important;
+    }
+
+    .flex-wrap {
+        flex-direction: column;
+        gap: 16px !important;
+    }
+
+    .menu-link span {
+        font-size: 13px;
+    }
+
+    .menu-item {
+        height: 44px;
+    }
+
+    input[type="search"] {
+        font-size: 14px !important;
+    }
+
+    button {
+        font-size: 14px !important;
+        padding: 8px 12px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Thêm vào file index.css hoặc App.css */
+.mobile-sidebar .ant-drawer-body {
+    padding: 0 !important;
+}
+
+@media (max-width: 768px) {
+    .ant-table-wrapper {
+        overflow-x: auto;
+    }
+
+    .ant-table {
+        min-width: 600px;
+    }
+}
+
+/* Đảm bảo table có thể scroll ngang trên mobile */
+.content {
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* Responsive cho table */
+@media (max-width: 768px) {
+    .ant-table-thead > tr > th,
+    .ant-table-tbody > tr > td {
+        padding: 12px 8px !important;
+        font-size: 14px;
+    }
+
+    .ant-table {
+        font-size: 14px;
+    }
+}
+
+
+/* ====== FIX CRITICAL MOBILE LAYOUT ====== */
+
+/* QUAN TRỌNG: Override hoàn toàn tính toán sai trên mobile */
+@media (max-width: 768px) {
+    /* FIX 1: Main section - BỎ tính toán width/left */
+    section.relative {
+        width: 100% !important;
+        left: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    /* FIX 2: Sidebar behavior */
+    /*.sidebar {*/
+    /*    !*transform: translateX(-100%) !important;*!*/
+    /*    transition: transform 0.3s ease !important;*/
+    /*}*/
+
+    /*!* Sidebar khi mở *!*/
+    /*.sidebar.mobile-open {*/
+    /*    transform: translateX(0) !important;*/
+    /*    z-index: 2000 !important;*/
+    /*}*/
+
+    /* Sidebar đóng vẫn ẩn */
+    /*.sidebar.hide {*/
+    /*    transform: translateX(-100%) !important;*/
+    /*}*/
+
+    /* FIX 3: Main content */
+    main {
+        padding: 20px 16px !important;
+        width: 100% !important;
+    }
+
+    /* FIX 4: Navbar fixed */
+    nav.h-14 {
+        position: fixed !important;
+        top: 0 !important;
+        width: 100% !important;
+        z-index: 1000 !important;
+    }
+
+    /* FIX 5: Đẩy main xuống dưới navbar */
+    main.w-full {
+        margin-top: 56px !important;
+    }
+
+    /* FIX 6: Container bảng */
+    .flex-grow.basis-\[500px\] {
+        min-width: 100% !important;
+        width: 100% !important;
+    }
+
+    /* FIX 7: Actions trong bảng */
+    .min-w-\[420px\] {
+        min-width: 100% !important;
+        justify-content: space-between !important;
+    }
+}
+
+/* FIX màn hình siêu nhỏ */
+@media (max-width: 576px) {
+    main {
+        padding: 16px 12px !important;
+    }
+
+    h1.text-\[36px\] {
+        font-size: 28px !important;
+    }
+
+    .flex-wrap {
+        flex-direction: column !important;
+        gap: 16px !important;
+    }
+
+    .flex-grow.basis-\[500px\] {
+        padding: 16px !important;
+    }
+}
+
+/* Overlay cho mobile */
+.mobile-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1999;
+}
+
+.sidebar.mobile-open ~ .mobile-overlay {
+    display: block;
+}
+
+/* Đảm bảo không bị scroll ngang trên mobile */
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+/* Fix cho content table */
+.content {
+    width: 100%;
+    overflow-x: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Thêm vào cuối file adm.css */
+
+/* Dark Mode Toggle Style */
+.fui-checkbox-toggle {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.fui-checkbox-toggle .toggle-input {
+    display: none;
+}
+
+.fui-checkbox-toggle .toggle-input:checked + .toggle-bar {
+    background-color: #1dc071;
+}
+
+.fui-checkbox-toggle .toggle-input:checked + .toggle-bar .toggle-spin {
+    transform: translateX(24px);
+}
+
+.fui-checkbox-toggle .toggle-bar {
+    width: 50px;
+    height: 25px;
+    background-color: #cbd5e1;
+    border-radius: 5rem;
+    padding: 2.5px;
+    transition: background-color 0.2s linear;
+    position: relative;
+}
+
+.fui-checkbox-toggle .toggle-spin {
+    width: 20px;
+    height: 20px;
+    border-radius: 100rem;
+    background-color: #fff;
+    transition: transform 0.2s linear;
+}
+
+/* Dark mode cho toggle */
+.fui-checkbox-toggle.dark .toggle-bar {
+    background-color: #4b5563;
+}
+
+.fui-checkbox-toggle.dark .toggle-input:checked + .toggle-bar {
+    background-color: #059669;
+}
+
+/* Responsive cho toggle */
+@media (max-width: 768px) {
+    .fui-checkbox-toggle .toggle-bar {
+        width: 45px;
+        height: 22px;
+    }
+
+    .fui-checkbox-toggle .toggle-spin {
+        width: 18px;
+        height: 18px;
+    }
+
+    .fui-checkbox-toggle .toggle-input:checked + .toggle-bar .toggle-spin {
+        transform: translateX(21px);
+    }
+}
+
+
+
+
+
+/* Thêm vào adm.css */
+.fui-checkbox-toggle {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.fui-checkbox-toggle .toggle-input {
+    display: none;
+}
+
+.fui-checkbox-toggle .toggle-bar {
+    width: 50px;
+    height: 28px;
+    background-color: #eee; /* Nền sáng: #eee */
+    /*border: 1px solid #6B7597;*/
+    border-radius: 5rem;
+    padding: 2.5px;
+    transition: all 0.2s linear;
+    position: relative;
+}
+
+.fui-checkbox-toggle .toggle-spin {
+    margin-top: 2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100rem;
+    background-color: #6B7597; /* Dot sáng: #6B7597 */
+    transition: all 0.2s linear;
+}
+
+/* Khi checked (dark mode) */
+.fui-checkbox-toggle .toggle-input:checked + .toggle-bar {
+    background-color: #6B7597; /* Nền tối: #6B7597 */
+    border-color: #111;
+}
+
+.fui-checkbox-toggle .toggle-input:checked + .toggle-bar .toggle-spin {
+    background-color: #111; /* Dot tối: đen */
+    transform: translateX(24px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .fui-checkbox-toggle .toggle-bar {
+        width: 45px;
+        height: 26px;
+    }
+
+    .fui-checkbox-toggle .toggle-spin {
+        width: 18px;
+        height: 18px;
+    }
+
+    .fui-checkbox-toggle .toggle-input:checked + .toggle-bar .toggle-spin {
+        transform: translateX(21px);
+    }
+}
+
+
+
+
+
+
+
+
+
+.btn-save-custom {
+    background-color: #6B7597 !important;
+    border-color: #6B7597 !important;
+    color: #fff !important;
+}
+
+.btn-save-custom:hover {
+    background-color: #5f6888 !important;
+    border-color: #5f6888 !important;
+}

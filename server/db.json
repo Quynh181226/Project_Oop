@@ -1,0 +1,1228 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin",
+      "phone": ""
+    },
+    {
+      "id": "US001",
+      "fullName": "B24DTCN442",
+      "email": "quynhph@gmail.com",
+      "password": "user1234",
+      "role": "user",
+      "status": "active",
+      "phone": null,
+      "avatar": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1766456438/hifwmqr8hxacugz6iwuj.png"
+    },
+    {
+      "fullName": "Quynh",
+      "email": "quynh@gmail.com",
+      "password": "quynh@gmail.com",
+      "phone": "0928272736",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2025-12-18T03:27:13.455Z",
+      "id": "US002",
+      "avatar": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1766329508/ournoakjf0ioebydmkjd.jpg"
+    },
+    {
+      "fullName": "Phạm Hương Quỳnh",
+      "email": "phamhuongquynh2k6@gmail.com",
+      "phone": "0888888888",
+      "role": "user",
+      "status": "active",
+      "avatar": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1766329346/iuxroetj3uaigwdq6o2l.jpg",
+      "password": "phamhuongquynh2k6@gmail.com",
+      "id": "US003"
+    },
+    {
+      "fullName": "Wuynk",
+      "email": "wuynk@gmail.com",
+      "phone": "066666666",
+      "role": "user",
+      "status": "active",
+      "avatar": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1766329417/qhczmcphojc4mnvtqnha.jpg",
+      "password": "wuynk@gmail.com",
+      "id": "US004"
+    },
+    {
+      "fullName": "Quynh",
+      "email": "quynh1812@gmail.com",
+      "password": "quynh1812@gmail.com",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2025-12-23T04:45:11.145Z",
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Hành động",
+      "image": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1760250199/lsjzy5qkir5aknowyh6h.svg"
+    },
+    {
+      "id": 4,
+      "name": "Tâm lý, tình cảm",
+      "image": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1760260506/kkfsmobszow9gweywqbf.png"
+    },
+    {
+      "id": 5,
+      "name": "Kinh dị",
+      "image": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1760437962/tdset9crmyyy9nrnrlm0.png"
+    },
+    {
+      "name": "Hài hước",
+      "image": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1760319717/jedgswvu2ltu6oxxcez0.jpg",
+      "id": 7
+    },
+    {
+      "name": "Hoạt hình",
+      "image": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1760060312/mol5mwyxou5xverfudmx.svg",
+      "id": 8
+    },
+    {
+      "name": "Recipe",
+      "image": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1760260664/t92n6xguyoli7jzribiu.jpg",
+      "id": 9
+    },
+    {
+      "name": "Ptit",
+      "image": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1760437799/fiyqx2urotqctmswfjvh.png",
+      "id": 10
+    },
+    {
+      "name": "Thinking",
+      "image": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1760438134/ksqmldcjtzvjrelk6grg.png",
+      "id": 11
+    },
+    {
+      "name": "Error",
+      "image": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1760438187/cyalzrbu3e1clfw52gxq.jpg",
+      "id": 12
+    },
+    {
+      "name": "Java",
+      "image": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1760438515/fvnoj4izbohahfgic4r2.png",
+      "id": 13
+    },
+    {
+      "name": "kinh dị",
+      "id": 14
+    },
+    {
+      "name": "sss",
+      "id": 15
+    }
+  ],
+  "time-slots": [
+    {
+      "time": "20:30",
+      "id": 1
+    },
+    {
+      "time": "01:55",
+      "id": 2
+    },
+    {
+      "time": "03:15",
+      "id": 3
+    },
+    {
+      "time": "05:35",
+      "id": 4
+    },
+    {
+      "time": "02:10",
+      "id": 5
+    },
+    {
+      "time": "06:00",
+      "id": 6
+    },
+    {
+      "time": "09:00",
+      "id": 7
+    },
+    {
+      "time": "16:15",
+      "id": 8
+    },
+    {
+      "time": "18:30",
+      "id": 9
+    },
+    {
+      "time": "19:30",
+      "id": 10
+    }
+  ],
+  "show-dates": [
+    {
+      "date": "2025-12-12",
+      "id": 1
+    },
+    {
+      "date": "2025-12-15",
+      "id": 2
+    },
+    {
+      "date": "2025-12-04",
+      "id": 3
+    },
+    {
+      "date": "2025-12-31",
+      "id": 4
+    },
+    {
+      "date": "2025-12-01",
+      "id": 5
+    },
+    {
+      "date": "2026-01-01",
+      "id": 6
+    },
+    {
+      "date": "2025-12-26",
+      "id": 7
+    },
+    {
+      "date": "2025-12-22",
+      "id": 8
+    },
+    {
+      "date": "2025-12-23",
+      "id": 9
+    },
+    {
+      "date": "2025-12-24",
+      "id": 10
+    },
+    {
+      "date": "2025-12-25",
+      "id": 11
+    },
+    {
+      "date": "2025-12-27",
+      "id": 12
+    },
+    {
+      "date": "2025-12-28",
+      "id": 13
+    }
+  ],
+  "movies": [
+    {
+      "title": "CƯỜI XUYÊN BIÊN GIỚI - T13",
+      "country": "Hàn Quốc",
+      "director": "KIM Chang-ju",
+      "actors": "Ryu Seung-ryong , Jin Sun-kyu, Igor Rafael P EDROSO, Luan B RUM DE ABREU E LIMA, JB João Batista GOMES DE O LIVEIRA, Yeom Hye-ran và Go Kyoung- pyo, Lee Soon-won",
+      "genres": [
+        "Tâm lý, tình cảm"
+      ],
+      "duration": 112,
+      "rated": "IMAX",
+      "releaseDate": "2025-12-18",
+      "description": "Cười Xuyên Biên Giới kể về hành trình của Jin-bong (Ryu Seung-ryong) - cựu vô địch\nbắn cung quốc gia, sau khi nghỉ hưu, anh đã trở thành một nhân viên văn phòng bình\nthường. Đứng trước nguy cơ bị sa thải, Jin-bong phải nhận một nhiệm vụ bất khả thi là\nbay đến nửa kia của trái đất trong nỗ lực tuyệt vọng để sinh tồn. Sống sót sau một sự chết chóc.",
+      "trailer": "https://youtu.be/4ALt4VT7grw?si=_uEzwajq7vEPCPDz",
+      "status": "showing",
+      "poster": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1765980972/doqe6yb279szu4nhdpyt.svg",
+      "showDates": [
+        "2025-12-12",
+        "2025-12-04",
+        "2025-12-01",
+        "2026-01-01",
+        "2025-12-22"
+      ],
+      "timeSlots": [
+        "20:30"
+      ],
+      "id": 1
+    },
+    {
+      "title": "NĂM ĐÊM KINH HOÀNG 2-T16",
+      "country": "Mỹ",
+      "director": "Emma Tammi",
+      "actors": "Mckenna Grace, Josh Hutcherson, Matthew Lillard",
+      "genres": [
+        "Kinh dị"
+      ],
+      "duration": 104,
+      "rated": "2D",
+      "releaseDate": "2025-12-12",
+      "description": "Tiếp nối tuyến truyện từ phần 1, NĂM ĐÊM KINH HOÀNG 2 lấy bối cảnh một năm sau thảm kịch siêu nhiên xảy ra tại tiệm bánh pizza Freddy Fazbear. Giờ đây, những ký ức kinh hoàng ấy bị bóp méo thành một truyền thuyết kỳ quặc, trở thành cảm hứng cho lễ hội thị trấn mang tên Fazfest - nơi sẽ bắt đầu cho một cơn ác mộng mới.",
+      "trailer": "https://youtu.be/NT0TBXgyK7U?si=F640Ez9j-nq3-rpY",
+      "status": "showing",
+      "poster": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1766455701/lom5l10njh555vihxmsj.webp",
+      "showDates": [
+        "2025-12-28",
+        "2025-12-27",
+        "2025-12-25",
+        "2025-12-24",
+        "2025-12-23",
+        "2025-12-22",
+        "2025-12-26"
+      ],
+      "timeSlots": [
+        "20:30",
+        "05:35",
+        "01:55"
+      ],
+      "id": 2
+    },
+    {
+      "title": "ĐỨA CON SAU VƯỜN - T16",
+      "country": "Việt Nam",
+      "director": "Dyan Sunu Prastowo",
+      "actors": "Nirina Zubir, Nugie, Mutia Datau",
+      "genres": [
+        "Kinh dị"
+      ],
+      "duration": 100,
+      "rated": "3D",
+      "releaseDate": "2025-12-06",
+      "description": "Kỳ nghỉ của Alya hóa thành thảm kịch khi con gái cô, Jasmine, bị chết đuối. Alya phải chôn con trong vườn nhà mẹ. Sau này, cô phát hiện ngôi mộ trống rỗng và những hiện tượng kỳ quái bắt đầu xảy ra. Alya nhận ra ngôi mộ chứa lời nguyền cổ xưa giúp người chết sống lại nhưng không bao giờ trở về là người như cũ.",
+      "trailer": "https://youtu.be/0H1_BsAAM04",
+      "status": "showing",
+      "poster": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1766457521/vxfjsltizjcm7kmcy8ch.webp",
+      "showDates": [
+        "2025-12-22",
+        "2025-12-23",
+        "2025-12-24",
+        "2025-12-25",
+        "2025-12-27",
+        "2025-12-28"
+      ],
+      "timeSlots": [
+        "20:30",
+        "09:00",
+        "19:30",
+        "18:30"
+      ],
+      "id": 4
+    },
+    {
+      "title": "VUA CỦA CÁC VUA - T13",
+      "country": "Mỹ",
+      "director": "Seong-ho Jang",
+      "actors": "Mark Hamill, Pierce Brosnan, Roman Griffin Davis",
+      "genres": [
+        "Hoạt hình"
+      ],
+      "duration": 100,
+      "rated": "4DX",
+      "releaseDate": "2025-12-06",
+      "description": "Khi một bộ phim hoạt hình Hàn Quốc viết lại lịch sử phòng vé toàn cầu bằng câu chuyện từ Kinh Thánh. The King of Kings - Vua của Các Vua trở thành bộ phim hoạt hình dựa trên Kinh Thánh có doanh thu đạt kỷ lục toàn cầu, đồng thời chinh phục khán giả Bắc Mỹ với loạt điểm số ấn tượng: 98% Popcornmeter trên Rotten Tomatoes và A+ từ CinemaScore. Bộ phim không chỉ gây ấn tượng bởi thành tích đáng nể, mà còn bởi hành trình nơi niềm tin gặp gỡ nghệ thuật. Từng khung hình được chăm chút như một bức họa thiêng liêng, kể về tình yêu, phép màu và lòng biết ơn - những giá trị khiến bộ phim chạm đến trái tim hàng triệu khán giả. — The King Of Kings – Vua của Các Vua - Phim hoạt hình về cuộc đời Chúa Giê-su đầu tiên chiếu rạp rộng rãi tại Việt Nam. - Khởi chiếu toàn quốc mùa giáng sinh từ ngày 12.12.2025.",
+      "status": "coming",
+      "poster": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1766457702/ccagi3q1emmkwcmf5ybq.webp",
+      "showDates": [
+        "2025-12-24",
+        "2025-12-22"
+      ],
+      "timeSlots": [
+        "09:00",
+        "20:30",
+        "05:35",
+        "19:30"
+      ],
+      "id": 5
+    },
+    {
+      "title": "ZOOTOPIA: PHI VỤ ĐỘNG TRỜI 2-P",
+      "country": "Mỹ",
+      "director": "Seong-ho Jang",
+      "actors": "Jason Bateman, Quinta Brunson, Fortune Feimster",
+      "genres": [
+        "Hoạt hình"
+      ],
+      "duration": 100,
+      "rated": "2D",
+      "releaseDate": "2025-12-10",
+      "description": "ZOOTOPIA 2 trở lại sau 9 năm Đu OTP Nick & Judy chuẩn bị 28.11.2025 này ra rạp nhé",
+      "trailer": "https://youtu.be/6TsZCDSwlrs",
+      "status": "coming",
+      "poster": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1766457818/ep2iu0nalyf3aqgjrwfb.webp",
+      "showDates": [
+        "2025-12-28",
+        "2025-12-24"
+      ],
+      "timeSlots": [
+        "19:30",
+        "18:30",
+        "09:00",
+        "16:15",
+        "06:00",
+        "20:30"
+      ],
+      "id": 6
+    },
+    {
+      "title": "KUMANTHONG NHẬT BẢN: VONG NHI CÚP BẾ",
+      "country": "Nhật Bản",
+      "director": "Yaguchi Shinobu",
+      "actors": "Kôji Seto, Tetsushi Tanaka, Ken Yasuda, Jun Fubuki",
+      "genres": [
+        "Kinh dị"
+      ],
+      "duration": 108,
+      "rated": "2D",
+      "releaseDate": "2025-10-16",
+      "description": "Suzuki Yoshie bỗng tìm thấy một con búp bê giống với đứa con gái đã mất của mình, vì quá đau buồn mà vợ chồng cô đã chăm sóc con búp bê trong suốt nhiều năm. Sự việc kinh hoàng xảy ra khi cô phát hiện mình đã có thai, và dường như con búp bê của cô không muốn chia sẻ tình thương với “đứa em” sơ sinh đó.",
+      "status": "ended",
+      "poster": "https://res.cloudinary.com/dtxlzevgb/image/upload/v1766457933/jed9aqcqdpxfcy0ozegy.webp",
+      "showDates": [
+        "2025-12-04",
+        "2025-12-12"
+      ],
+      "timeSlots": [
+        "09:00",
+        "18:30",
+        "19:30",
+        "20:30"
+      ],
+      "id": 7
+    }
+  ],
+  "festivals": [
+    {
+      "id": 1,
+      "title": "Liên hoan phim Châu Âu tại Trung tâm Chiếu phim Quốc gia",
+      "date": "14:57 12/11/2024",
+      "description": "Từ 14–27.11.2024, Liên hoan phim Châu Âu (EUFF) bởi Phái đoàn EU tại Việt Nam, hợp tác cùng các Đại sứ quán và viện văn hóa của các Quốc gia Thành viên EU, cùng khách mời đặc biệt Đại sứ quán Ukraine tại Việt Nam sẽ diễn ra tại Trung tâm Chiếu phim Quốc gia, Hà Nội",
+      "image": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501268/Container_kx21fa.png"
+    },
+    {
+      "id": 2,
+      "title": "LIÊN HOAN PHIM QUỐC TẾ HÀ NỘI LẦN THỨ VII (HANIFF VII)",
+      "date": "09:23 06/11/2024",
+      "description": "Liên hoan Phim quốc tế Hà Nội lần thứ VII là sự kiện văn hóa nghệ thuật, tôn vinh các tác phẩm điện ảnh có giá trị nghệ thuật cao, giàu tính nhân văn",
+      "image": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501268/Container1_rmvcs6.png"
+    },
+    {
+      "id": 3,
+      "title": "LÊN TIẾNG CHO MAI SAU: LIÊN HOAN PHIM TÀI LIỆU VỀ PHÁT TRIỂN BỀN VỮNG",
+      "date": "14:51 28/10/2024",
+      "description": "",
+      "image": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501271/Container2_fjojfm.png"
+    },
+    {
+      "id": 4,
+      "title": "Liên hoan phim Đức KinoFest tại Hà Nội",
+      "date": "09:32 09/10/2024",
+      "description": "Liên hoan phim Đức: KinoFest là Liên hoan phim thường niên của Viện Goethe tại Đông Nam Á....",
+      "image": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501268/Container3_uieemq.png"
+    },
+    {
+      "id": 5,
+      "title": "Liên hoan phim Italia 2024 tại Trung tâm Chiếu phim Quốc gia",
+      "date": "13:51 18/09/2024",
+      "description": "Liên hoan phim Italia tại Trung tâm Chiếu phim Quốc gia",
+      "image": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501268/Container4_jzy6ts.png"
+    },
+    {
+      "id": 6,
+      "title": "Chương trình phim “Salon Điện ảnh Đài Loan 2024” từ 08/09 – 14/09/2024",
+      "date": "11:57 06/09/2024",
+      "description": "Chương trình chiếu phim “Salon Điện ảnh Đài Loan 2024” với bộ phim thấm đẫm hơi thở cuộc sống hiện đại...",
+      "image": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501269/Container5_cgyawl.png"
+    },
+    {
+      "id": 7,
+      "title": "Tuần lễ phim Iran tại Trung tâm Chiếu phim Quốc gia (10/1 – 14/1/2024)",
+      "date": "09:55 08/01/2024",
+      "description": "",
+      "image": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501269/Container6_mj7q0o.png"
+    },
+    {
+      "id": 8,
+      "title": "Khai mạc LHP Nhật Bản tại Trung tâm Chiếu phim Quốc gia",
+      "date": "09:45 13/12/2023",
+      "description": "",
+      "image": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501269/Container7_rqxx0w.png"
+    },
+    {
+      "id": 9,
+      "title": "Tuần lễ phim Liên minh Thái Bình Dương",
+      "date": "11:08 05/12/2023",
+      "description": "Tuần lễ phim Liên minh Thái Bình Dương",
+      "image": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501270/Container8_oiz9xd.png"
+    },
+    {
+      "id": 10,
+      "title": "Liên hoan phim Italia 2023",
+      "date": "16:29 30/11/2023",
+      "description": "Liên hoan phim Italia 2023",
+      "image": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501270/Container9_c7cqko.png"
+    },
+    {
+      "title": "fwf",
+      "date": "06:30 26/12/2025",
+      "description": "sdwfwef",
+      "image": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501268/Container1_rmvcs6.png",
+      "id": 11
+    }
+  ],
+  "festivalDetails": [
+    {
+      "id": 1,
+      "title": "Liên hoan phim Châu Âu tại Trung tâm Chiếu phim Quốc gia",
+      "subtitle": "Liên hoan phim Châu Âu tại Trung tâm Chiếu phim Quốc gia",
+      "paragraphs": [
+        "Từ 14–27.11.2024, Liên hoan phim Châu Âu (EUFF) bởi Phái đoàn EU tại Việt Nam, hợp tác cùng các Đại sứ quán và viện văn hóa của các Quốc gia Thành viên EU, cùng khách mời đặc biệt Đại sứ quán Ukraine tại Việt Nam sẽ diễn ra tại Trung tâm Chiếu phim Quốc gia, Hà Nội. Khai mạc Liên hoan phim sẽ được tổ chức vào 20h ngày 14/11/2024 (Thứ 5) với bộ phim “The Peasants” (Nông dân).",
+        "Liên hoan phim Châu Âu năm nay sẽ trình chiếu 18 bộ phim, là 18 cuộc gặp gỡ với những nhân vật đời thường trong những cảnh huống bất thường. Rong ruổi theo chân họ, khán giả sẽ được đi vào hành trình khám phá sâu thẳm nội tâm, tới những làng quê, các cung điện phong kiến, tới một thành phố mê cung, một thành phố hậu chiến, một thành phố cổ tích..."
+      ],
+      "ticketInfo": [
+        "Vé mời MIỄN PHÍ tại Hà Nội sẽ được phát từ ngày 05/11/2024 tại những địa điểm dưới đây:",
+        "- Phái đoàn EU tại Việt Nam – Tầng 24, Tòa Tây (Sảnh Văn phòng), Trung tâm Lotte, 54 Liễu Giai, Ba Đình. Giờ mở cửa: 09:00–12:30; 13:30–17:00 (thứ Hai–thứ Sáu).",
+        "- Viện Goethe Hà Nội – 56-58-60 Nguyễn Thái Học, Ba Đình. Giờ mở cửa: 08:30–12:00; 13:00–18:00 (thứ Hai–thứ Sáu)."
+      ],
+      "extraInfo": [
+        "Mỗi khán giả được nhận bốn vé tự chọn, khán giả khi tới nhận vé không cần đăng ký trước.",
+        "Thông tin về lịch chiếu, nội dung phim xem tại website chính thức bên dưới.",
+        "Đón xem các buổi chiếu diễn ra trong khuôn khổ của LHP tại Hà Nội từ 14–27.11.2024."
+      ],
+      "link": "https://www.eeas.europa.eu/euff-vietnam-2024_vi?s=184",
+      "banner": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501271/image_1_rlgb2d.png",
+      "scheduleImage": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501272/image_2_dixbpc.png"
+    },
+    {
+      "id": 2,
+      "title": "LIÊN HOAN PHIM QUỐC TẾ HÀ NỘI LẦN THỨ VII (HANIFF VII)",
+      "subtitle": "Liên hoan Phim quốc tế Hà Nội lần thứ VII",
+      "paragraphs": [
+        "Liên hoan Phim quốc tế Hà Nội lần thứ VII là sự kiện văn hóa nghệ thuật, tôn vinh các tác phẩm điện ảnh có giá trị nghệ thuật cao, giàu tính nhân văn, mang đậm bản sắc dân tộc.",
+        "Chương trình bao gồm các hạng mục phim truyện, phim ngắn, hoạt hình và tài liệu đến từ nhiều quốc gia, tạo nên không gian giao lưu điện ảnh sôi động tại Thủ đô."
+      ],
+      "ticketInfo": [
+        "Vé được phát miễn phí tại một số rạp tham gia chương trình.",
+        "Khán giả được lựa chọn suất chiếu tùy theo lịch trình cá nhân."
+      ],
+      "extraInfo": [
+        "Thông tin chi tiết về lịch chiếu và tọa đàm được đăng tải trên website chính thức của Liên hoan phim.",
+        "Sự kiện diễn ra tại nhiều cụm rạp trên địa bàn Hà Nội."
+      ],
+      "banner": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501271/haniff_uk33ee.jpg",
+      "scheduleImage": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501272/haniff1_qsox0j.jpg"
+    },
+    {
+      "id": 3,
+      "title": "LÊN TIẾNG CHO MAI SAU: LIÊN HOAN PHIM TÀI LIỆU VỀ PHÁT TRIỂN BỀN VỮNG",
+      "subtitle": "LÊN TIẾNG CHO MAI SAU: LIÊN HOAN PHIM TÀI LIỆU VỀ PHÁT TRIỂN BỀN VỮNG",
+      "paragraphs": [],
+      "ticketInfo": [],
+      "extraInfo": [],
+      "link": "",
+      "banner": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501271/Container2_fjojfm.png",
+      "scheduleImage": ""
+    },
+    {
+      "id": 4,
+      "title": "Liên hoan phim Đức KinoFest tại Hà Nội",
+      "subtitle": "Liên hoan phim Đức KinoFest",
+      "paragraphs": [
+        "KinoFest là Liên hoan phim Đức thường niên, mang tới cho khán giả Việt Nam những tác phẩm điện ảnh tiêu biểu của Đức trong nhiều năm gần đây.",
+        "Chương trình bao gồm các phim thuộc nhiều thể loại: tâm lý, hài, gia đình, tài liệu..."
+      ],
+      "ticketInfo": [
+        "Vé phát miễn phí tại Viện Goethe và một số điểm phát hành được chỉ định."
+      ],
+      "extraInfo": [
+        "Một số buổi chiếu có phụ đề tiếng Việt và tiếng Anh."
+      ],
+      "banner": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501274/kinofest_zw0s1n.jpg",
+      "scheduleImage": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501273/kinofest1_rmeoct.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Liên hoan phim Italia 2024 tại Trung tâm Chiếu phim Quốc gia",
+      "subtitle": "Liên hoan phim Italia 2024 tại Trung tâm Chiếu phim Quốc gia",
+      "paragraphs": [
+        "Liên hoan phim Italia tại Trung tâm Chiếu phim Quốc gia"
+      ],
+      "ticketInfo": [],
+      "extraInfo": [],
+      "link": "",
+      "banner": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501268/Container4_jzy6ts.png",
+      "scheduleImage": ""
+    },
+    {
+      "id": 6,
+      "title": "Salon Điện ảnh Đài Loan 2024",
+      "subtitle": "Chương trình phim “Salon Điện ảnh Đài Loan 2024”",
+      "paragraphs": [
+        "Chương trình mang đến những bộ phim khai thác chủ đề phụ nữ, trẻ em và gia đình, phản ánh hơi thở của xã hội Đài Loan đương đại.",
+        "Đặc biệt có sự góp mặt của tác phẩm ăn khách “Chuyện tôi và ma quỷ thành người một nhà”."
+      ],
+      "ticketInfo": [
+        "Vé được phát miễn phí trước giờ chiếu tại quầy vé."
+      ],
+      "extraInfo": [
+        "Một số buổi chiếu có phần giao lưu với khách mời đặc biệt."
+      ],
+      "banner": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501276/salon_ynwiya.jpg",
+      "scheduleImage": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501276/salon1_iwyo0q.webp"
+    },
+    {
+      "id": 7,
+      "title": "Tuần lễ phim Iran",
+      "subtitle": "Tuần lễ phim Iran tại Trung tâm Chiếu phim Quốc gia",
+      "paragraphs": [
+        "Tuần lễ phim giới thiệu một số bộ phim nghệ thuật tiêu biểu của điện ảnh Iran, nổi tiếng với cách kể chuyện tinh tế và chiều sâu tâm lý.",
+        "Khán giả sẽ được tiếp cận một nền điện ảnh giàu bản sắc và nhiều suy tư."
+      ],
+      "ticketInfo": [
+        "Vé phát miễn phí, số lượng có hạn cho mỗi suất chiếu."
+      ],
+      "extraInfo": [],
+      "banner": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501273/iran_a60eki.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Liên hoan phim Nhật Bản",
+      "subtitle": "Khai mạc Liên hoan phim Nhật Bản tại Trung tâm Chiếu phim Quốc gia",
+      "paragraphs": [
+        "Liên hoan phim Nhật Bản mang đến những bộ phim đa dạng thể loại, từ hoạt hình, tâm lý, tình cảm đến phim nghệ thuật.",
+        "Chương trình là dịp để khán giả Việt Nam khám phá văn hóa và con người Nhật Bản qua ngôn ngữ điện ảnh."
+      ],
+      "ticketInfo": [],
+      "extraInfo": [
+        "Một số suất chiếu có phiên bản lồng tiếng Việt dành cho thiếu nhi."
+      ],
+      "banner": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501274/lhp_krklhg.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Tuần lễ phim Liên minh Thái Bình Dương",
+      "subtitle": "Tuần lễ phim Liên minh Thái Bình Dương",
+      "paragraphs": [
+        "Tuần lễ phim giới thiệu các tác phẩm đến từ các quốc gia thuộc Liên minh Thái Bình Dương, với màu sắc tươi mới và đa dạng.",
+        "Chương trình tập trung vào những câu chuyện đời thường, giàu cảm xúc và gần gũi với khán giả."
+      ],
+      "ticketInfo": [],
+      "extraInfo": [],
+      "banner": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501275/lhptbd_w4wihk.webp"
+    },
+    {
+      "id": 10,
+      "title": "Liên hoan phim Italia 2023",
+      "subtitle": "Liên hoan phim Italia 2023",
+      "paragraphs": [
+        "Liên hoan phim Italia 2023 giới thiệu tuyển tập những bộ phim ăn khách tại nước Ý trong những năm gần đây.",
+        "Các tác phẩm mang màu sắc lãng mạn, hài hước xen lẫn những câu chuyện gia đình nhiều cảm xúc."
+      ],
+      "ticketInfo": [],
+      "extraInfo": [],
+      "banner": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501274/italia2023_fg1d14.jpg"
+    },
+    {
+      "id": 11,
+      "title": "fwf",
+      "subtitle": "fwf",
+      "paragraphs": [
+        "sdwfwef"
+      ],
+      "ticketInfo": [],
+      "extraInfo": [],
+      "link": "",
+      "banner": "https://res.cloudinary.com/drnolvz6g/image/upload/v1765501268/Container1_rmvcs6.png",
+      "scheduleImage": ""
+    }
+  ],
+  "calendar": [
+    [
+      {
+        "id": 1,
+        "img": "https://www.cgv.vn/media/catalog/product/cache/1/image/800x1200/9df78eab33525d08d6e5fb8d27136e95/s/p/spring-garden-poster.jpg",
+        "title": "AI OÁN TRONG VƯỜN XUÂN - T18",
+        "country": "Hàn Quốc",
+        "release": "18/12/2025",
+        "category": "Kinh dị",
+        "duration": "91 phút",
+        "label": "T18 - Phim được phổ biến đến người xem từ đủ 18 tuổi trở lên (18+)",
+        "type": "2D",
+        "times": [
+          "18:15",
+          "19:55",
+          "23:25"
+        ],
+        "schedule": {
+          "18-12-2025": [
+            "18:15",
+            "19:55"
+          ],
+          "19-12-2025": [
+            "20:30",
+            "22:45"
+          ],
+          "20-12-2025": [
+            "21:15"
+          ],
+          "21-12-2025": [
+            "18:00",
+            "23:25"
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "img": "https://upload.wikimedia.org/wikipedia/en/7/7e/Avatar_The_Way_of_Water_poster.jpg",
+        "title": "AVATAR: DÒNG CHẢY SỰ SỐNG",
+        "country": "Mỹ",
+        "release": "20/12/2025",
+        "category": "Khoa học viễn tưởng",
+        "duration": "192 phút",
+        "label": "T13 - Phim được phổ biến đến người xem từ đủ 13 tuổi trở lên",
+        "type": "3D",
+        "times": [
+          "17:30",
+          "20:45"
+        ],
+        "schedule": {
+          "20-12-2025": [
+            "17:30"
+          ],
+          "21-12-2025": [
+            "20:45"
+          ],
+          "22-12-2025": [
+            "18:00"
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "img": "https://upload.wikimedia.org/wikipedia/en/1/17/Dune_2024_poster.jpg",
+        "title": "DUNE: HÀNH TINH CÁT – PHẦN 2",
+        "country": "Mỹ",
+        "release": "24/12/2025",
+        "category": "Phiêu lưu",
+        "duration": "166 phút",
+        "label": "T13 - Phim được phổ biến đến người xem từ đủ 13 tuổi trở lên",
+        "type": "IMAX",
+        "times": [
+          "16:00",
+          "19:30"
+        ],
+        "schedule": {
+          "22-12-2025": [
+            "16:00"
+          ],
+          "23-12-2025": [
+            "19:30"
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "img": "https://upload.wikimedia.org/wikipedia/en/5/5a/Conjuring_3_poster.jpg",
+        "title": "ÁM ẢNH KINH HOÀNG",
+        "country": "Mỹ",
+        "release": "17/12/2025",
+        "category": "Kinh dị",
+        "duration": "112 phút",
+        "label": "T18 - Phim dành cho người lớn",
+        "type": "2D",
+        "times": [
+          "21:00",
+          "23:45"
+        ],
+        "schedule": {
+          "23-12-2025": [
+            "21:00"
+          ],
+          "24-12-2025": [
+            "23:45"
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "img": "https://upload.wikimedia.org/wikipedia/en/9/90/Inside_Out_2_poster.jpg",
+        "title": "NHỮNG MẢNH GHÉP CẢM XÚC 2",
+        "country": "Mỹ",
+        "release": "23/12/2025",
+        "category": "Hoạt hình",
+        "duration": "96 phút",
+        "label": "P - Phim dành cho mọi lứa tuổi",
+        "type": "2D",
+        "times": [
+          "15:00",
+          "17:15"
+        ],
+        "schedule": {
+          "18-12-2025": [
+            "15:00"
+          ],
+          "19-12-2025": [
+            "17:15"
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "img": "https://upload.wikimedia.org/wikipedia/en/a/a3/John_Wick_Chapter_4_poster.jpg",
+        "title": "JOHN WICK: CHƯƠNG 4",
+        "country": "Mỹ",
+        "release": "23/12/2025",
+        "category": "Hành động",
+        "duration": "169 phút",
+        "label": "T18 - Phim dành cho người lớn",
+        "type": "2D",
+        "times": [
+          "18:30",
+          "22:00"
+        ],
+        "schedule": {
+          "21-12-2025": [
+            "18:30"
+          ],
+          "23-12-2025": [
+            "22:00"
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "img": "https://upload.wikimedia.org/wikipedia/en/6/6c/Your_Name_poster.png",
+        "title": "YOUR NAME",
+        "country": "Nhật Bản",
+        "release": "22/12/2025",
+        "category": "Lãng mạn",
+        "duration": "106 phút",
+        "label": "T13 - Phim dành cho thiếu niên",
+        "type": "2D",
+        "times": [
+          "16:45",
+          "19:00"
+        ],
+        "schedule": {
+          "22-12-2025": [
+            "16:45"
+          ],
+          "23-12-2025": [
+            "19:00"
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "img": "https://upload.wikimedia.org/wikipedia/en/8/8e/Parasite_%282019_film%29.png",
+        "title": "KÝ SINH TRÙNG",
+        "country": "Hàn Quốc",
+        "release": "21/12/2025",
+        "category": "Tâm lý",
+        "duration": "132 phút",
+        "label": "T18 - Phim dành cho người lớn",
+        "type": "2D",
+        "times": [
+          "20:00"
+        ],
+        "schedule": {
+          "21-12-2025": [
+            "20:00"
+          ]
+        }
+      },
+      {
+        "id": 9,
+        "img": "https://upload.wikimedia.org/wikipedia/en/4/44/Interstellar_film_poster.jpg",
+        "title": "HỐ ĐEN TỬ THẦN",
+        "country": "Mỹ",
+        "release": "19/12/2025",
+        "category": "Khoa học viễn tưởng",
+        "duration": "169 phút",
+        "label": "T13 - Phim dành cho thiếu niên",
+        "type": "IMAX",
+        "times": [
+          "18:00",
+          "21:30"
+        ],
+        "schedule": {
+          "23-12-2025": [
+            "18:00"
+          ],
+          "24-12-2025": [
+            "21:30"
+          ]
+        }
+      },
+      {
+        "id": 10,
+        "img": "https://upload.wikimedia.org/wikipedia/en/3/3f/Fast_X_poster.jpg",
+        "title": "FAST & FURIOUS X",
+        "country": "Mỹ",
+        "release": "20/12/2025",
+        "category": "Hành động",
+        "duration": "141 phút",
+        "label": "T13 - Phim dành cho thiếu niên",
+        "type": "2D",
+        "times": [
+          "17:00",
+          "20:15"
+        ],
+        "schedule": {
+          "23-12-2025": [
+            "17:00"
+          ],
+          "24-12-2025": [
+            "20:15"
+          ]
+        }
+      }
+    ]
+  ],
+  "news": [
+    {
+      "id": 1,
+      "img": "https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-6/484501103_672976885265464_6623027526414171284_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7eH2vlTVl_IQ7kNvwGZrh8g&_nc_oc=AdkSzjrCurAw3arg4xq2B8ejj3uAnOhDz2Bumg140JFyvE52mODbiAymAugtT_-9ucoUNdG3XkNG0dhNrcV7WlPs&_nc_zt=23&_nc_ht=scontent-hkg1-1.xx&_nc_gid=4lu1jbRyUjpcvAkxHurAAQ&oh=00_AflA0MAGr1OLTUnLBqpqJDT0lWXtTyDcfM99z59nMytbWw&oe=694E2D0A",
+      "date": "03/10/2024",
+      "title": "Chương trình phim kỉ niệm nhân dịp 70 năm Giải phóng Thủ đô",
+      "content": "<p>Nhân dịp 70 năm ngày Giải phóng Thủ đô (10/10/1954 – 10/10/2024), Trung tâm Chiếu phim Quốc gia tổ chức chương trình phim kỷ niệm.</p><p>Bộ phim được chọn trình chiếu miễn phí là <strong>Đào, phở và piano</strong>, tái hiện hình ảnh Hà Nội những ngày cuối cùng trong năm 1946.</p><p><strong>1.</strong> Thời gian chiếu: 06/10 – 10/10/2024</p><p><strong>2.</strong> Địa điểm: Phòng chiếu số 12</p><p><strong>3.</strong> Suất chiếu: 10h00 và 20h15</p><p><strong>4.</strong> Hình thức nhận vé: trực tiếp tại quầy vé NCC</p>"
+    },
+    {
+      "id": 2,
+      "img": "https://tse2.mm.bing.net/th/id/OIP.RkS-_JPQj-7n7aXCek3YfQHaEx?pid=Api&P=0&h=180",
+      "date": "13/09/2024",
+      "title": "Vui Tết Trung Thu - Rinh quà vi vu",
+      "content": "<p>Chào mừng Tết Trung Thu, Trung tâm Chiếu phim Quốc gia triển khai nhiều chương trình ưu đãi hấp dẫn dành cho khán giả.</p><p>Hoạt động bao gồm phát quà cho thiếu nhi, giảm giá vé và các suất chiếu phim gia đình đặc biệt.</p>"
+    },
+    {
+      "id": 3,
+      "img": "https://s3-api.fpt.vn/fptvn-storage/2025-08-27/1756259797_phim-mua-do.jpg",
+      "date": "10/09/2024",
+      "title": "Lịch chiếu phim đặc biệt nhân dịp Quốc khánh 2/9",
+      "content": "<p>Nhân dịp Quốc khánh 2/9, rạp tổ chức các suất chiếu phim lịch sử và cách mạng phục vụ khán giả.</p><p>Chương trình nhằm tôn vinh tinh thần yêu nước và giá trị lịch sử dân tộc.</p>"
+    },
+    {
+      "id": 4,
+      "img": "https://aeonmall-review-rikkei.cdn.vccloud.vn/public/wp/16/promotions/MDmjDYAZuBw7jN9lY9wmPfynj5Tl2YlcojjiSvrV.jpg",
+      "date": "05/09/2024",
+      "title": "Khuyến mãi đặc biệt mùa tựu trường",
+      "content": "<p>Nhằm chào đón năm học mới, rạp triển khai chương trình ưu đãi giá vé dành cho học sinh – sinh viên.</p><p>Áp dụng cho các suất chiếu trước 18h trong tuần.</p>"
+    },
+    {
+      "id": 5,
+      "img": "https://s3-api.fpt.vn/fptvn-storage/2025-08-27/1756259797_phim-mua-do.jpg",
+      "date": "01/09/2024",
+      "title": "Lịch chiếu phim đặc biệt nhân dịp Quốc khánh 2/9",
+      "content": "<p>Các bộ phim chọn lọc mang chủ đề lịch sử, văn hóa sẽ được trình chiếu trong dịp lễ Quốc khánh.</p>"
+    },
+    {
+      "id": 6,
+      "img": "https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-6/484501103_672976885265464_6623027526414171284_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7eH2vlTVl_IQ7kNvwGZrh8g&_nc_oc=AdkSzjrCurAw3arg4xq2B8ejj3uAnOhDz2Bumg140JFyvE52mODbiAymAugtT_-9ucoUNdG3XkNG0dhNrcV7WlPs&_nc_zt=23&_nc_ht=scontent-hkg1-1.xx&_nc_gid=4lu1jbRyUjpcvAkxHurAAQ&oh=00_AflA0MAGr1OLTUnLBqpqJDT0lWXtTyDcfM99z59nMytbWw&oe=694E2D0A",
+      "date": "28/08/2024",
+      "title": "Chương trình phim kỉ niệm nhân dịp 70 năm Giải phóng Thủ đô",
+      "content": "<p>Chuỗi hoạt động chiếu phim kỷ niệm được tổ chức nhằm tái hiện lại những dấu mốc lịch sử quan trọng của Thủ đô Hà Nội.</p>"
+    },
+    {
+      "id": 7,
+      "img": "https://tse2.mm.bing.net/th/id/OIP.RkS-_JPQj-7n7aXCek3YfQHaEx?pid=Api&P=0&h=180",
+      "date": "15/08/2024",
+      "title": "Vui Tết Trung Thu - Rinh quà vi vu",
+      "content": "<p>Nhiều hoạt động văn hóa – giải trí đặc sắc sẽ diễn ra trong dịp Trung Thu dành cho thiếu nhi và gia đình.</p>"
+    },
+    {
+      "id": 8,
+      "img": "https://s3-api.fpt.vn/fptvn-storage/2025-08-27/1756259797_phim-mua-do.jpg",
+      "date": "10/08/2024",
+      "title": "Lịch chiếu phim đặc biệt nhân dịp Quốc khánh 2/9",
+      "content": "<p>Rạp chuẩn bị nhiều suất chiếu phim hấp dẫn để phục vụ khán giả trong kỳ nghỉ lễ sắp tới.</p>"
+    }
+  ],
+  "bookings": [
+    {
+      "customerEmail": "phamhuongquynh2k6@gmail.com",
+      "customerName": "Phạm Hương Quỳnh",
+      "phoneNumber": "0888888888",
+      "movieTitle": "NĂM ĐÊM KINH HOÀNG 2-T16",
+      "date": "2025-12-28",
+      "time": "20:30",
+      "seats": [
+        "A2",
+        "I12",
+        "K1",
+        "K2"
+      ],
+      "totalPrice": 585000,
+      "bookingCode": "BOOK-Q4QRJX1I-6453",
+      "createdAt": "2025-12-23T03:12:28.194Z",
+      "status": "confirmed",
+      "emailSent": true,
+      "id": 1
+    },
+    {
+      "customerEmail": "phamhuongquynh2k6@gmail.com",
+      "customerName": "Phạm Hương Quỳnh",
+      "phoneNumber": "0888888888",
+      "movieTitle": "ZOOTOPIA: PHI VỤ ĐỘNG TRỜI 2-P",
+      "date": "2025-12-28",
+      "time": "09:00",
+      "seats": [
+        "E8",
+        "F8"
+      ],
+      "totalPrice": 160000,
+      "bookingCode": "BOOK-QWBJOK18-3988",
+      "createdAt": "2025-12-23T03:16:45.584Z",
+      "status": "confirmed",
+      "emailSent": true,
+      "id": 2
+    },
+    {
+      "customerEmail": "phamhuongquynh2k6@gmail.com",
+      "customerName": "Phạm Hương Quỳnh",
+      "phoneNumber": "0888888888",
+      "movieTitle": "CƯỜI XUYÊN BIÊN GIỚI - T13",
+      "date": "2025-12-12",
+      "time": "20:30",
+      "seats": [
+        "H13"
+      ],
+      "totalPrice": 90000,
+      "bookingCode": "BOOK-1KHFE82P-1572",
+      "createdAt": "2025-12-23T04:39:51.908Z",
+      "status": "confirmed",
+      "emailSent": true,
+      "id": 3
+    },
+    {
+      "customerEmail": "phamhuongquynh2k6@gmail.com",
+      "customerName": "Phạm Hương Quỳnh",
+      "phoneNumber": "0888888888",
+      "movieTitle": "NĂM ĐÊM KINH HOÀNG 2-T16",
+      "date": "2025-12-28",
+      "time": "20:30",
+      "seats": [
+        "C8",
+        "D8"
+      ],
+      "totalPrice": 185000,
+      "bookingCode": "BOOK-5ODI9C1N-1655",
+      "createdAt": "2025-12-23T04:48:41.844Z",
+      "status": "confirmed",
+      "emailSent": true,
+      "id": 4
+    },
+    {
+      "customerEmail": "quynhph@gmail.com",
+      "customerName": "Phq",
+      "phoneNumber": "",
+      "movieTitle": "ZOOTOPIA: PHI VỤ ĐỘNG TRỜI 2-P",
+      "date": "2025-12-28",
+      "time": "09:00",
+      "seats": [
+        "B8",
+        "G2"
+      ],
+      "totalPrice": 140000,
+      "bookingCode": "BOOK-HC0EBUP2-3329",
+      "createdAt": "2026-03-20T10:31:35.209Z",
+      "status": "confirmed",
+      "emailSent": true,
+      "id": 5
+    },
+    {
+      "customerEmail": "phamhuongquynh2k6@gmail.com",
+      "customerName": "Phạm Hương Quỳnh",
+      "phoneNumber": "0888888888",
+      "movieTitle": "NĂM ĐÊM KINH HOÀNG 2-T16",
+      "date": "2025-12-28",
+      "time": "01:55",
+      "seats": [
+        "E3",
+        "F3"
+      ],
+      "totalPrice": 160000,
+      "bookingCode": "BOOK-OY19RQFV-8078",
+      "createdAt": "2026-03-20T10:43:00.179Z",
+      "status": "confirmed",
+      "emailSent": true,
+      "id": 6
+    },
+    {
+      "customerEmail": "phamhuongquynh2k6@gmail.com",
+      "customerName": "Phạm Hương Quỳnh",
+      "phoneNumber": "0888888888",
+      "movieTitle": "NĂM ĐÊM KINH HOÀNG 2-T16",
+      "date": "2025-12-28",
+      "time": "01:55",
+      "seats": [
+        "E3",
+        "F3"
+      ],
+      "totalPrice": 160000,
+      "bookingCode": "BOOK-5C6K17WQ-5157",
+      "createdAt": "2026-03-20T10:43:06.534Z",
+      "status": "confirmed",
+      "emailSent": true,
+      "id": 7
+    },
+    {
+      "customerEmail": "phamhuongquynh2k6@gmail.com",
+      "customerName": "Phạm Hương Quỳnh",
+      "phoneNumber": "0888888888",
+      "movieTitle": "VUA CỦA CÁC VUA - T13",
+      "date": "2025-12-24",
+      "time": "05:35",
+      "seats": [
+        "D4",
+        "C4"
+      ],
+      "totalPrice": 120000,
+      "bookingCode": "BOOK-V9V1U5IK-1823",
+      "createdAt": "2026-03-20T10:51:54.306Z",
+      "status": "confirmed",
+      "emailSent": true,
+      "id": 8
+    }
+  ],
+  "promotion": [
+    {
+      "id": "1",
+      "img": "https://res.cloudinary.com/ddtcavlr0/image/upload/v1766024404/sro69usnprdd2vx52b0q.png",
+      "date": "2025-01-01",
+      "title": "Combo no nê mới nhất "
+    },
+    {
+      "id": "2",
+      "img": "https://res.cloudinary.com/ddtcavlr0/image/upload/v1766024403/p22z1mkucusonpttkfoc.png",
+      "title": "Ưu đãi đặc biệt vào tháng 8",
+      "date": "21/1/2020"
+    },
+    {
+      "id": "3",
+      "img": "https://res.cloudinary.com/ddtcavlr0/image/upload/v1766024403/bkp1ag9vezycp1tkznfk.png",
+      "title": "Ra mắt loại bỏng mới nhất",
+      "date": "22/1/2020"
+    },
+    {
+      "id": "4",
+      "img": "https://res.cloudinary.com/ddtcavlr0/image/upload/v1766024402/c21q3xeps16y71jlvldx.png",
+      "title": "Phim mới ra đang hot hit",
+      "date": "23/1/2020"
+    }
+  ],
+  "feedback": [
+    {
+      "id": 1,
+      "userId": 1,
+      "userName": "Nguyễn Văn A",
+      "userAvatar": "https://example.com/avatar1.jpg",
+      "rating": 5,
+      "comment": "Trải nghiệm tuyệt vời!",
+      "created_at": "2024-01-15T10:30:00Z"
+    },
+    {
+      "userId": 1,
+      "userName": "Admin",
+      "userAvatar": null,
+      "rating": 3,
+      "comment": "kj",
+      "created_at": "2025-12-22T10:27:44.160Z",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "userName": "Admin",
+      "userAvatar": null,
+      "rating": 4,
+      "comment": "ko",
+      "created_at": "2025-12-22T10:27:52.342Z",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "userName": "Admin",
+      "userAvatar": null,
+      "rating": 3,
+      "comment": "nih",
+      "created_at": "2025-12-22T10:28:23.015Z",
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "userName": "Admin",
+      "userAvatar": null,
+      "rating": 3,
+      "comment": "m",
+      "created_at": "2025-12-22T10:28:29.247Z",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "userName": "Admin",
+      "userAvatar": null,
+      "rating": 3,
+      "comment": "ộimo",
+      "created_at": "2025-12-22T10:29:03.941Z",
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "userName": "Admin",
+      "userAvatar": null,
+      "rating": 3,
+      "comment": "t",
+      "created_at": "2025-12-22T10:29:08.951Z",
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "userName": "Admin",
+      "userAvatar": null,
+      "rating": 2,
+      "comment": "t",
+      "created_at": "2025-12-22T10:29:13.244Z",
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "userName": "Admin",
+      "userAvatar": null,
+      "rating": 3,
+      "comment": "ttt",
+      "created_at": "2025-12-22T10:29:19.030Z",
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "userName": "Admin",
+      "userAvatar": null,
+      "rating": 3,
+      "comment": "t",
+      "created_at": "2025-12-22T10:29:25.190Z",
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "userName": "Admin",
+      "userAvatar": null,
+      "rating": 3,
+      "comment": "t",
+      "created_at": "2025-12-22T10:29:29.814Z",
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "userName": "Admin",
+      "userAvatar": null,
+      "rating": 1,
+      "comment": "t",
+      "created_at": "2025-12-22T10:29:35.221Z",
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "userName": "Admin",
+      "userAvatar": null,
+      "rating": 2,
+      "comment": "t",
+      "created_at": "2025-12-22T10:29:40.813Z",
+      "id": 14
+    }
+  ]
+}
